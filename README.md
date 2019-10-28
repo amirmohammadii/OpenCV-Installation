@@ -1,1 +1,12 @@
 # OpenCV-Installation
+
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
+
+The library has more than 2500 optimized algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects, extract 3D models of objects, produce 3D point clouds from stereo cameras, stitch images together to produce a high resolution image of an entire scene, find similar images from an image database, remove red eyes from images taken using flash, follow eye movements, recognize scenery and establish markers to overlay it with augmented reality, etc. OpenCV is used extensively in companies, research groups and by governmental bodies.
+
+this Library has C++, Python, Java and MATLAB interfaces and supports Windows, Linux, Android and Mac OS. OpenCV leans mostly towards real-time vision applications and takes advantage of MMX and SSE instructions when available. A full-featured CUDA and OpenCL interfaces are being actively developed right now. There are over 500 algorithms and about 10 times as many functions that compose or support those algorithms. OpenCV is written natively in C++ and has a templated interface that works seamlessly with STL containers.
+
+Before you can start learning OpenCV you first need to install the OpenCV library on your system. Using the Windows platform to foray into data science and computer vision is a popular choice especially among beginners. Anaconda is the first choice distribution for scientific python particularly on Windows.
+
+## Step 1: Installing Anaconda
+Download the latest Anaconda graphical installer for Windows from [Anaconda website](https://www.anaconda.com/distribution/) and check for the Windows architecture on your computer. If its 64-bit then choose the 64 bit graphical installer or else choose the 32-bit installer. Choose Python 3.7 for working with Python 3. This is the preferred option as python 2.7 is reaching its End-Of-Life by 2020.
