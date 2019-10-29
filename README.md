@@ -319,11 +319,10 @@ Build Essentials.
    - Installing GUI libraries:
    
      OpenCV employs the HighGUI library(“high-level graphical user interface”) to open windows, display, read and write images and videos, etc. This library(HighGUI) needs a backend to operate. There are two available backends for HighGUI. One is the Qt library which can be installed as follows:
-     
-    ```
-    sudo apt-get install libgtk-3-dev
-    sudo apt-get install libgtkglext1 libgtkglext1-dev
-    ```
+     ```
+     sudo apt-get install libgtk-3-dev
+     sudo apt-get install libgtkglext1 libgtkglext1-dev
+     ```
     
    - Installing image processing libraries:
    
