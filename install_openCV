@@ -1,4 +1,4 @@
-#!/bin/sh
+
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -105,3 +105,6 @@ workon cv
 #>>> cv2.__version__
 #'4.0.0'
 #>>> quit()
+
+
+#!/bin/sh
