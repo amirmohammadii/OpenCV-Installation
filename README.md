@@ -8,6 +8,15 @@ This Library has C++, Python, Java and MATLAB interfaces and supports Windows, L
 
 Before you can start learning OpenCV you first need to install the OpenCV library on your system. Using the Windows platform to foray into data science and computer vision is a popular choice especially among beginners. Anaconda is the first choice distribution for scientific python particularly on Windows.
 
+
+- [Installing Anaconda on Windows](https://github.com/amirmohammadii/OpenCV-Installation#step-1-installing-anaconda)
+- [Installing OpenCV on Windows](https://github.com/amirmohammadii/OpenCV-Installation#step-2-installing-opencv)
+- [Installing Anaconda on Ununtu 18.04](https://github.com/amirmohammadii/OpenCV-Installation#step-1-installing-anaconda-1)
+- [Set up Anaconda Virtual Environment on Ubuntu 18.04](https://github.com/amirmohammadii/OpenCV-Installation#set-up-anaconda-environments)
+- [Uninstall Anaconda on Ubuntu 18.04](https://github.com/amirmohammadii/OpenCV-Installation#uninstalling-anaconda)
+- [Installing OpenCv on Ununtu 18.04](https://github.com/amirmohammadii/OpenCV-Installation#installing-opencv)
+- [Installing OpenCV on Ubuntu 18.04 without Anaconda](https://github.com/amirmohammadii/OpenCV-Installation#installing-opencv-without-anaconda)
+
 ## Install Anaconda + OpenCV on Windows
 
 ### Step 1: Installing Anaconda
@@ -293,10 +302,10 @@ Loosely speaking, installing the dependencies is the central part of OpenCV inst
       Building tools must be installed first. The build-essentials is a reference for any Debian package requirements. It generally     includes the gcc/g++ compilers as libraries and is necessary if any C/C++ compiler is included in the specifications. If any packages are desired to be compiled from its source, then pkg-config is required which is our case in OpenCV installation. cmake manages and executes the build process of OpenCV. cmake-curses-gui installs the ccmake which is the handy GUI for the cmake configuration process!
 Build Essentials.
 
-    ```
-    sudo apt-get install build-essential 
-    sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libs
-    ```
+        ```
+        sudo apt-get install build-essential 
+        sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libs
+        ```
 
    - Installing Python libraries:
 
@@ -311,10 +320,11 @@ Build Essentials.
    
      OpenCV employs the HighGUI library(“high-level graphical user interface”) to open windows, display, read and write images and videos, etc. This library(HighGUI) needs a backend to operate. There are two available backends for HighGUI. One is the Qt library which can be installed as follows:
      
-      ```
-      sudo apt-get install libgtk-3-dev
-      sudo apt-get install libgtkglext1 libgtkglext1-dev
-      ```
+    ```
+    sudo apt-get install libgtk-3-dev
+    sudo apt-get install libgtkglext1 libgtkglext1-dev
+    ```
+    
    - Installing image processing libraries:
    
       OpenCV is at first an image processing and manipulation library. The first ability for that is to load/save images. Moreover, it  should be able to recognize and decode different file formats like PNG, JPG, TIFF, etc. The essential packages regarding image processing can be installed as below:
