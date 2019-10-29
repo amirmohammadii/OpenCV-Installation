@@ -327,10 +327,9 @@ Build Essentials.
    - Installing image processing libraries:
    
       OpenCV is at first an image processing and manipulation library. The first ability for that is to load/save images. Moreover, it  should be able to recognize and decode different file formats like PNG, JPG, TIFF, etc. The essential packages regarding image processing can be installed as below:
-      
-    ```
-    sudo apt-get install python3.6-dev python3-dev libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
-    ```
+      ```
+      sudo apt-get install python3.6-dev python3-dev libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+      ```
     
    - Installing video processing libraries:
    
