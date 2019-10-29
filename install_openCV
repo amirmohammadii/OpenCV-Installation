@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -59,7 +61,7 @@ source ~/.bashrc
 mkvirtualenv cv -p python3
 
 workon cv
-pip install numpy
+pip install -y numpy numba scipy matploblib scikit-learn scikit-image dlib
 #pip install -y numba scipy matploblib scikit-learn scikit-image dlib
 
 cd ~/opencv
@@ -75,8 +77,8 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 	-D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python \
 	-D BUILD_EXAMPLES=ON ..
 
-
-make -j4
+#set your GPU core
+make -j4  
 
 make clean
 make
